@@ -1,0 +1,7 @@
+// Collisions!
+
+// global.playerX and global.enemyX are not predefined.
+// collideWith is predefined.
+command(global.playerX collideWith global.enemyX){
+  // Write what happens here
+}
