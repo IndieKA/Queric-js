@@ -1,0 +1,8 @@
+// How to give stats (example)
+define (yourVariableHere){ 
+  firstName: ""
+  lastName: ""
+}
+
+// replace "yourVariableHere" with whatever.
+
