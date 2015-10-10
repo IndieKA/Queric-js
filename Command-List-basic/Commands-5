@@ -1,0 +1,7 @@
+// Interactive "create."
+
+create.chart(x, y, rowNum, rowSections){
+  chartName: ""
+  addTo(chart): "";
+}
+Same thing with "graph", but different.
