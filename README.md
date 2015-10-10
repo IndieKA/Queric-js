@@ -7,10 +7,6 @@ and is not to be downloaded as it has many bugs.
 
 # Table Of Contents 
 
-- 
--
--
--
--
-- 
+- Collisions (https://github.com/QuericJS/Queric-js/tree/master/Collisions)
+- Commands (basic) (https://github.com/QuericJS/Queric-js/tree/master/Command-List-basic)
 
