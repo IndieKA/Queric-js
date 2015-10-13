@@ -1,0 +1,48 @@
+/****************************** 
+ * QuericJS 
+*******************************/
+var QuericJS = function() {
+    /*************************
+     * Queric.js by Indie, KCF, Ethan Bierlein, TheChosenOne, IceSerpent, and Alexander T.
+     * A library of JavaScript designed for mainly platformers and games.
+     * Created on October 11th, 2015. 
+     * 
+     * This does not use externals, but is being made compatible with Base-64 image loading. However, users are warned not to use loadImageData(); as it can be flagged and removed off the Hot List.
+     * @param command - Replacement for "if". Still uses normal parameters.
+     * @param global - Replacement for "this." Still uses normal parameters.
+     * @param part - Replacement for "case". Still uses normal parameters.
+     * @param shift - Replacement for "switch".
+     * @param or - Replacement for "else". Still uses normal parameters.
+     * @param end - Replacement for "break". Still uses normal parameters.
+     * 
+     * User friendly functions located below. Thanks to <user> Aidabaida and <dev> AlexT for these.
+     ***************************/
+
+    var compare = function(value1, value2) {
+        return (value1 !== value2 ? (value1 > value2 ? 'greater' : 'less') : 'equal');
+    };
+    var mouseOn = function(x, y, w, h) {
+        return (mouseX >= x && mouseX <= x + w && mouseY >= y && mouseY <= y + h) ? true : false;
+    };
+
+    var setting = function(r, g, b) {
+        background(r, g, b);
+    };
+    var word = function(string, x, y, xConstrain, yConstrain) {
+        text(string, x, y, xConstrain, yConstrain);
+    };
+    var wordSize = function(size) {
+        textSize(size);
+    };
+    var wordAlign = function(align, yAlign) {
+        if (yAlign >= 0) {
+            textAlign(align, yAlign);
+        } else {
+            textAlign(align, align);
+        }
+    };
+    var circle = function(x, y, width, height) {
+        ellipse(x, y, width, height);
+    };
+    
+};
