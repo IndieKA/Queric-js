@@ -1,6 +1,6 @@
 # Queric-js
 
-Queric-js is a simple JavaScript framework used to make Processing.JS development in Khanacademy *much* easier. Rather than manually implementing things like collisions, Queric-js will automatically handle things like these, without making the developer do as much work.
+Queric-js is a simple JavaScript framework used to make Processing.JS development in Khan Academy *much* easier. Rather than manually implementing things like collisions, Queric-js will automatically handle things like these, without making the developer do as much work.
 
 # Attribution
 
